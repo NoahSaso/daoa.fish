@@ -68,9 +68,12 @@ const main = async () => {
     return
   }
 
-  // Ensure we only try to get a fish at 11:11.
+  // Ensure we only try to get a fish at 11:11 am/pm.
   const now = new Date()
-  if (now.getHours() !== 11 || now.getMinutes() !== 11) {
+  if (
+    (now.getHours() !== 11 && now.getHours() !== 23) ||
+    now.getMinutes() !== 11
+  ) {
     console.log('the time is not 11:11')
     return
   }
