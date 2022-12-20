@@ -1,0 +1,38 @@
+{
+  "name": "daoafish",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "fish": "node dist/fish.js",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "author": "Noah Saso <noah@noah.zone>",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/prettier": "^2.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.29.5",
+    "@cosmjs/crypto": "^0.29.5",
+    "@cosmjs/encoding": "^0.29.5",
+    "@cosmjs/proto-signing": "^0.29.5",
+    "@cosmjs/stargate": "^0.29.5",
+    "axios": "^1.2.1",
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "puppeteer": "^19.4.1"
+  }
+}

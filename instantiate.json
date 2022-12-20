@@ -1,0 +1,26 @@
+{
+  "admin": null,
+  "automatically_add_cw20s": true,
+  "automatically_add_cw721s": true,
+  "description": "sometimes fish are made at 11:11 via makea.fish, and sometimes one of those fish find their way into this DAO",
+  "image_url": "ipfs://bafybeibmlpeoqteuwwnizkrqizidc7td7ccngz5yclb32hkdosnaoxgwze/blob",
+  "name": "daoa.fish",
+  "proposal_modules_instantiate_info": [
+    {
+      "admin": {
+        "core_contract": {}
+      },
+      "code_id": 427,
+      "label": "DAO_daoa.fish_cw-proposal-single",
+      "msg": "eyJhbGxvd19yZXZvdGluZyI6ZmFsc2UsImRlcG9zaXRfaW5mbyI6bnVsbCwibWF4X3ZvdGluZ19wZXJpb2QiOnsidGltZSI6MjU5MjAwfSwib25seV9tZW1iZXJzX2V4ZWN1dGUiOnRydWUsInRocmVzaG9sZCI6eyJ0aHJlc2hvbGRfcXVvcnVtIjp7InF1b3J1bSI6eyJwZXJjZW50IjoiMC4yMCJ9LCJ0aHJlc2hvbGQiOnsibWFqb3JpdHkiOnt9fX19fQ=="
+    }
+  ],
+  "voting_module_instantiate_info": {
+    "admin": {
+      "core_contract": {}
+    },
+    "code_id": 431,
+    "label": "DAO_daoa.fish_cw20-staked-balance-voting",
+    "msg": "eyJ0b2tlbl9pbmZvIjp7Im5ldyI6eyJjb2RlX2lkIjo0MzUsImRlY2ltYWxzIjo2LCJpbml0aWFsX2JhbGFuY2VzIjpbeyJhZGRyZXNzIjoianVubzE2bXJqdHFmZm4zYXdtZTJlY3pobHB3emo3bW5hdGtlbHV2aGo2YyIsImFtb3VudCI6IjEwMDAwMDAwMDAwMDAifV0sImluaXRpYWxfZGFvX2JhbGFuY2UiOiI5MDAwMDAwMDAwMDAwIiwibGFiZWwiOiJmaXNoIiwibWFya2V0aW5nIjp7ImxvZ28iOnsidXJsIjoiaXBmczovL2JhZnliZWlibWxwZW9xdGV1d3duaXprcnFpemlkYzd0ZDdjY25nejV5Y2xiMzJoa2Rvc25hb3hnd3plL2Jsb2IifX0sIm5hbWUiOiJmaXNoIiwic3Rha2luZ19jb2RlX2lkIjo0MzAsInN5bWJvbCI6IkZJU0giLCJ1bnN0YWtpbmdfZHVyYXRpb24iOnsidGltZSI6NjA0ODAwfX19fQ=="
+  }
+}
