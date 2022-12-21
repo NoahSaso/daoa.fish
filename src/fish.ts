@@ -78,6 +78,8 @@ const main = async () => {
     return
   }
 
+  console.log(now.toLocaleString())
+
   console.log('Connecting to chain...')
 
   const client = await SigningCosmWasmClient.connectWithSigner(
