@@ -78,7 +78,7 @@ const main = async () => {
     return
   }
 
-  console.log(now.toLocaleString())
+  console.log(`\n---${now.toLocaleString()}---`)
 
   console.log('Connecting to chain...')
 
