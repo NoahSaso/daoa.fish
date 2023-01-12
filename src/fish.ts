@@ -86,7 +86,7 @@ const main = async () => {
     options.rpc,
     wallet,
     {
-      gasPrice: GasPrice.fromString('0.025ujuno'),
+      gasPrice: GasPrice.fromString('0.0025ujuno'),
     }
   )
 
